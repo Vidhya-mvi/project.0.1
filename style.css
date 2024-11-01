@@ -889,12 +889,14 @@ padding: 10px 0;
       grid-template-columns: repeat(1,1fr);
     }
     .together{
-      width: 300px;
+      width: 350px;
     }
     .input-bar{
       height: 20px;
     }
-    
+    .hero-head{
+   
+    }
     
     .butn.butn_fill.butt{
       padding: 6px 4px;
