@@ -827,7 +827,7 @@ padding: 10px 0;
       grid-template-columns: repeat(2,1fr);
     }
     .hero-list{
-      visibility: hidden;
+     display: none;
     }
     .new{
       left: 162px;
@@ -895,9 +895,13 @@ padding: 10px 0;
       height: 20px;
     }
     .hero-head{
+   display: ;
+   
    
     }
-    
+    .butn.butn_fill{
+      
+    }
     .butn.butn_fill.butt{
       padding: 6px 4px;
       font-size: 10px;
@@ -908,6 +912,10 @@ padding: 10px 0;
     }
     .nav_brand{
       font-size: 15px;
+    }
+    .butn.butn_fill.ful{
+      padding: 5px 5px;
+      margin-left: 20px;
     }
     .hero_top {
       p {
