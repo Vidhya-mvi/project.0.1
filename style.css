@@ -44,6 +44,9 @@ header {
   margin: auto;
   background-color: #ffffff;
   padding: 15px 0px;
+  position:sticky;
+  z-index:1;
+  top:0;
 }
 
 .container {
@@ -894,11 +897,7 @@ padding: 10px 0;
     .input-bar{
       height: 20px;
     }
-    .hero-head{
-   display: ;
-   
-   
-    }
+    
     .butn.butn_fill{
       
     }
