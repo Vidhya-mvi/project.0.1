@@ -787,9 +787,7 @@ padding: 10px 0;
   .imagg{
     display: none;
   }
-  .hero-head{
-    padding: 20px;
-  }
+  
   .hero-top{
     padding: 20px;
   }
@@ -811,7 +809,7 @@ padding: 10px 0;
       padding: 20px;
       gap: 10px;
       h2{
-        font-size: 30px;
+        font-size: 26px;
       }
     }
     .together{
@@ -841,7 +839,7 @@ padding: 10px 0;
       font-size: 10px;
      }
      .hero-body h1{
-      font-size: 20px;
+      font-size: 18px;
      }
      .box-line{
       font-size: 10px;
@@ -890,5 +888,36 @@ padding: 10px 0;
     .active{
       grid-template-columns: repeat(1,1fr);
     }
-
+    .together{
+      width: 300px;
+    }
+    .input-bar{
+      height: 20px;
+    }
+    
+    
+    .butn.butn_fill.butt{
+      padding: 6px 4px;
+      font-size: 10px;
+    }
+    .butn.buto{
+      padding: 6px 4px;
+      font-size: 10px;
+    }
+    .nav_brand{
+      font-size: 15px;
+    }
+    .hero_top {
+      p {
+        font-size: 5px;
+        line-height: 1.5;
+      }
+      h2{
+        font-size: 15px;
+        line-height: 1;
+      }
+      h6{
+        font-size: 5px;
+      }
+    }
   }
