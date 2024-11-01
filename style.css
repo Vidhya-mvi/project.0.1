@@ -609,7 +609,7 @@ margin-top: 16px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20%;
-  margin-bottom: 8%;
+  margin-bottom: 109px;
  
 }
 
@@ -657,7 +657,7 @@ margin-top: 0px;
 }
 .hero-bottum{
   text-align: center;
-  padding: 160px 140px 160px 140px;
+  padding: 160px 0px 160px 0px;
  
   h6{
     color: var(--para-text-and-box-color);
@@ -780,6 +780,7 @@ padding: 10px 0;
       font-size: 40px;
     }
   }
+  
   .hero-body h5{
  text-align: center;
   }
@@ -871,4 +872,23 @@ padding: 10px 0;
         font-size: 10px;
       }
     }
+  }
+  @media (max-width: 582px) 
+  {
+    .hero_grid{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .product_items{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .price{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .success{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .active{
+      grid-template-columns: repeat(1,1fr);
+    }
+
   }
