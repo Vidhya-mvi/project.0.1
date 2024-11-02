@@ -755,6 +755,7 @@ text-align: left;
 }
 .dark li a{
   color: var(--para-text-and-box-color);
+  padding: 0 0 0 15px;
 }
 /*                             section 10              */
 .footer-bottom {
@@ -877,13 +878,13 @@ padding: 10px 0;
      .hero_top{
       padding: 10px;
       h2{
-        font-size: 20px;
+        font-size: 25px;
       }
       h6{
-        font-size: 10px;
+        font-size: 15px;
       }
       p{
-        font-size: 10px;
+        font-size: 15px;
       }
      }
      .together{
@@ -917,6 +918,10 @@ padding: 10px 0;
     }
     .active{
       grid-template-columns: repeat(1,1fr);
+      padding: 15px;
+    }
+    .p{
+      font-size: 15px;
     }
     .together{
       width: 350px;
@@ -924,7 +929,9 @@ padding: 10px 0;
     .input-bar{
       height: 20px;
     }
-    
+    .new{
+      left: 220px;
+    }
     .butn.butn_fill.butt{
       padding: 8px 4px;
       font-size: 10px;
