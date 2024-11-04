@@ -554,14 +554,14 @@ color: var(--main-para-color);
 .page {
   position: relative;
   padding: 50px 40px; /* Padding around the content */
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.07); /* Subtle shadow */
+  box-shadow: 4px 15px 6px rgba(0, 0, 0, 0.07); /* Subtle shadow */
   background-color: white; /* Background for the page */
 }
 
 /* New label styling */
 .new {
   position: absolute; /* Positioned at a specific location */
-  left: 200px;
+  left: 210px;
   padding: 29px 16px; /* Padding for the label */
   border-radius: 52px; /* Rounded corners */
   color: var(--main-background-color);
