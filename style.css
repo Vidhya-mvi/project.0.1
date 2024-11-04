@@ -152,7 +152,7 @@ header {
     margin: 0;
     font-size: 15px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0.10000000149011612px;
     text-align: left;
     color: var(--para-text-and-box-color);
@@ -784,11 +784,11 @@ padding: 10px 0;
   .hero-body{
     flex-direction: column;
     text-align: center;
-    /* align-items: center; */
     padding: 20px;
-    gap: 1px;
+    gap: 0px;
     h1{
       font-size: 40px;
+      line-height: 0px;
     }
   }
   
@@ -842,6 +842,10 @@ padding: 10px 0;
     }
     .hero_grid{
       grid-template-columns: repeat(2,1fr);
+      margin-bottom: 60px;
+    }
+    .hero-part{
+      margin-bottom: 50px;
     }
     .hero-list {
       flex-direction: column;
@@ -856,18 +860,22 @@ padding: 10px 0;
       overflow: auto;
       box-shadow: 0px 13px 19px 0px #00000030;
     }
-    #menu-toggle:checked~.hero-list  {
+    .but.but{
+      display: none;
+     }
+
+    #menu-toggle:checked~.hero-list {
       display: block;
       left: 1px;
       opacity: 1;
   }
-
+  #menu-toggle:checked~.but.but {
+ display: block;
+  }
     .new{
       left: 162px;
     }
-     /* .but.but{
-      display: none;
-     } */
+     
      p{
       font-size: 10px;
      }
@@ -914,6 +922,7 @@ padding: 10px 0;
     }
     .price{
       grid-template-columns: repeat(1,1fr);
+      margin-bottom: 50px;
     }
     .success{
       grid-template-columns: repeat(1,1fr);
@@ -950,13 +959,28 @@ padding: 10px 0;
       padding: 6px 5px;
       margin-left: 20px;
     }
+    .grid-item{
+      h4{
+        margin: 0px 0px 10px 11px;;
+      }
+      p{
+        margin: 0px 0px 10px 11px;;
+      }
+    }
+    .icon{
+      margin: 0px 0px 0px 11px;
+    }
+    .product_items{
+      margin-bottom: 50px;
+    }
     .hero_top {
       p {
-        font-size: 8px;
+        font-size: 10px;
         line-height: 1.5;
+        max-width: fit-content;
       }
       h2{
-        font-size: 17px;
+        font-size: 20px;
         line-height: 1;
       }
       h6{
@@ -969,7 +993,13 @@ padding: 10px 0;
     p.last{
       font-size: 7px;
     }
-    .imp h3{
+    .imp {
+    h3{
       line-height: 50px;
+      font-size: 21px;
     }
+    p{
+      line-height: 1.8;
+    }
+  }
   }
