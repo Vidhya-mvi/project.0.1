@@ -817,7 +817,7 @@ padding: 10px 0;
     .part-para{
       flex-direction: column;
       text-align: center;
-      padding: 15px;
+      padding: 5px;
       gap: 10px;
       h2{
         font-size: 26px;
