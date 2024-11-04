@@ -216,7 +216,7 @@ header {
   max-width: fit-content;
 
   p {
-    margin: 7% 0 10% 20%;
+    margin: 15px 0 10px 65px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -247,10 +247,10 @@ h4.box_title {
   margin: 7% 0 0 20%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 35px;
   letter-spacing: 0.10000000149011612px;
   text-align: left;
 
@@ -870,6 +870,7 @@ padding: 10px 0;
     .butn.blank{
       display: block;
       background-color: var(--para-backaground-color);
+      padding: 0px;
     }
     .butn.blank:hover{
       color: var(--main-text-color);
@@ -968,10 +969,10 @@ padding: 10px 0;
     }
     .grid-item{
       h4{
-        margin: 0px 0px 10px 11px;;
+        margin: 0px 0px 5px 11px;;
       }
       p{
-        margin: 0px 0px 10px 11px;;
+        margin: 16px 0px 25px 11px;;
       }
     }
     .icon{
