@@ -537,7 +537,7 @@ border-radius: 200px;
 h3{
 font-size: 24px;
 font-weight: 700;
-line-height: 32px;
+line-height: 70px;
 letter-spacing: 0.10000000149011612px;
 text-align: left;
 }
@@ -965,9 +965,6 @@ padding: 10px 0;
     }
     .title_btn{
       padding: 0px;
-    }
-    p.group{
-      gap: 0px;
     }
     p.last{
       font-size: 7px;
