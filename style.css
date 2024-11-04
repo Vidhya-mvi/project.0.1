@@ -411,7 +411,7 @@ text-align: left;
   color: var(--main-para-color);
 font-size: 14px;
 font-weight: 400;
-line-height: 40px;
+line-height: 22px;
 letter-spacing: 0.20000000298023224px;
 text-align: left;
 
@@ -1001,5 +1001,11 @@ padding: 10px 0;
     p{
       line-height: 1.8;
     }
+  }
+  p.group{
+  letter-spacing: 4.20000000298023224px
+  }
+  .hero-bottum{
+    padding: 10px;
   }
   }
