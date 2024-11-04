@@ -402,7 +402,7 @@ text-align: left;
   h5{
 font-size: 16px;
 font-weight: 700;
-line-height: 45px;
+line-height: 22px;
 letter-spacing: 0.10000000149011612px;
 text-align: left;
  margin: 0;
@@ -1003,7 +1003,7 @@ padding: 10px 0;
     }
   }
   p.group{
-  letter-spacing: 4.20000000298023224px
+  letter-spacing: 6.20000000298023224px
   }
   .hero-bottum{
     padding: 10px;
