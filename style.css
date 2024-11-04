@@ -92,7 +92,7 @@ header {
 .title_btn {
   display: flex;
   gap: 30px;
-  padding: 0 60px 0 0;
+  padding: 0 65px 0 0;
 }
 
 .butn {
@@ -921,6 +921,7 @@ padding: 10px 0;
     .active{
       grid-template-columns: repeat(1,1fr);
       padding: 15px;
+      gap: 20px;
     }
     .p{
       font-size: 15px;
@@ -946,7 +947,7 @@ padding: 10px 0;
       font-size: 15px;
     }
     .butn.butn_fill.ful{
-      padding: 5px 5px;
+      padding: 6px 5px;
       margin-left: 20px;
     }
     .hero_top {
@@ -964,5 +965,14 @@ padding: 10px 0;
     }
     .title_btn{
       padding: 0px;
+    }
+    p.group{
+      gap: 0px;
+    }
+    p.last{
+      font-size: 7px;
+    }
+    .imp h3{
+      line-height: 50px;
     }
   }
