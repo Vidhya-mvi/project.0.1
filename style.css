@@ -92,7 +92,7 @@ header {
 .title_btn {
   display: flex;
   gap: 30px;
-  padding: 0 100px 0 0;
+  padding: 0 80px 0 0;
 }
 
 .butn {
@@ -237,7 +237,9 @@ header {
   color: var(--main-background-color);
   font-size: 27px;
 }
-
+.icon.che{
+  padding: 22px 19px 36px 22px;
+}
 h4.box_title {
   margin: 7% 0 0 20%;
   display: flex;
