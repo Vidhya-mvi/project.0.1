@@ -951,15 +951,15 @@ padding: 10px 0;
     }
     .hero_top {
       p {
-        font-size: 5px;
+        font-size: 8px;
         line-height: 1.5;
       }
       h2{
-        font-size: 15px;
+        font-size: 17px;
         line-height: 1;
       }
       h6{
-        font-size: 5px;
+        font-size: 7px;
       }
     }
     .title_btn{
