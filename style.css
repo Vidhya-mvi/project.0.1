@@ -245,6 +245,9 @@ header {
 .icon.che{
   padding: 22px 19px 36px 22px;
 }
+.fa-solid.fa-circle-check.che{
+  color: var(--main-background-color);
+}
 h4.box_title {
   margin: 7% 0 0 20%;
   display: flex;
@@ -1033,7 +1036,7 @@ padding: 10px 0;
     }
   }
   p.group{
-  letter-spacing: 3.20000000298023224px
+  letter-spacing: 4.20000000298023224px
   }
   .hero-bottum{
     padding: 10px 10px 27px 10px;
