@@ -557,9 +557,13 @@ color: var(--main-para-color);
 
 .page {
   position: relative;
-  padding: 50px 40px; /* Padding around the content */
-  box-shadow: 4px 15px 6px rgba(0, 0, 0, 0.07); /* Subtle shadow */
   background-color: white; /* Background for the page */
+  /* display: flex;
+  flex-direction: column; */
+  gap: 35px;
+  padding: 100px 40px 50px;
+  box-shadow: 0px 13px 19px 0px #00000012;
+  position: relative;
 }
 
 /* New label styling */
@@ -927,7 +931,7 @@ padding: 10px 0;
   {
     .hero_grid{
       grid-template-columns: repeat(1,1fr);
-      margin: 0 0 0 105px;
+      margin: 0 0 0 10px;
     }
     .product_items{
       grid-template-columns: repeat(1,1fr);
@@ -974,6 +978,9 @@ padding: 10px 0;
       padding: 8px 5px;
       margin-left: 20px;
     }
+    .pric {
+      padding: 20px 0px;
+    }
     .grid-item{
       h4{
         margin: 0px 0px 5px 11px;;
@@ -1018,7 +1025,7 @@ padding: 10px 0;
     }
   }
   p.group{
-  letter-spacing: 6.20000000298023224px
+  letter-spacing: 3.20000000298023224px
   }
   .hero-bottum{
     padding: 10px;
