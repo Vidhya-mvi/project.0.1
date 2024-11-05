@@ -948,6 +948,7 @@ padding: 10px 0;
     }
     .success{
       grid-template-columns: repeat(1,1fr);
+      margin-bottom: 150px;
     }
     .active{
       grid-template-columns: repeat(1,1fr);
