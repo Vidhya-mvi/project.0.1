@@ -308,7 +308,7 @@ color: var(--main-para-color);
   height: 4px;
   width: 90px;
   background-color: var(--danger-red);
-  margin: 6px 0px 0px 3px;
+  margin: 6px 0px 6px 3px;
 
 }
 .butn.body{
@@ -801,7 +801,7 @@ padding: 10px 0;
   .hero-body{
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 20px 10px 30px 10px;
     gap: 0px;
     h1{
       font-size: 40px;
@@ -978,7 +978,7 @@ padding: 10px 0;
       left: 210px;
     }
     .butn.butn_fill.butt{
-      padding: 8px 4px;
+      padding: 9px 7px;
       font-size: 10px;
     }
     .butn.buto{
@@ -988,6 +988,10 @@ padding: 10px 0;
     .butn.butn_fill.ful{
       padding: 8px 5px;
       margin-left: 20px;
+      font-size: 10px;
+    }
+    .nav_brand{
+      font-size: 18px;
     }
     .pric {
       padding: 20px 0px;
@@ -1008,23 +1012,23 @@ padding: 10px 0;
     }
     .hero_top {
       p {
-        font-size: 10px;
+        font-size: 13px;
         line-height: 1.5;
         max-width: fit-content;
       }
       h2{
-        font-size: 20px;
+        font-size: 22px;
         line-height: 1;
       }
       h6{
-        font-size: 7px;
+        font-size: 9px;
       }
     }
     .title_btn{
       padding: 0px;
     }
     p.last{
-      font-size: 7px;
+      font-size: 9px;
     }
     .imp {
     h3{
@@ -1032,14 +1036,14 @@ padding: 10px 0;
       font-size: 21px;
     }
     p{
-      line-height: 1.8;
+      line-height: 2.8;
     }
   }
   p.group{
   letter-spacing: 0.20000000298023224px
   }
   .hero-bottum{
-    padding: 10px 10px 27px 10px;
+    padding: 27px 10px 27px 10px;
   }
   }
 
